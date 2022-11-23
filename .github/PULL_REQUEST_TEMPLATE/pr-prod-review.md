@@ -8,7 +8,7 @@
 
 - [Contribution Guide]()
 
-- [Code Review Guide]()
+- [PR Review Guide]()
 
 # PRの変更差分をプロダクトに取り入れたい目的は何ですか？
 
