@@ -50,5 +50,8 @@
       "style": "less"
     }
   },
-  "defaultProject": "supporting-web"
+  "defaultProject": "supporting-web",
+  "implicitDependencies": {
+    "go.mod": "*"
+  }
 }
