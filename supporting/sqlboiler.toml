@@ -1,0 +1,10 @@
+no-tests = true
+
+[psql]
+  dbname = "ausu"
+  host   = "localhost"
+  port   = 5432
+  user   = "admin"
+  pass   = "password"
+  sslmode = "disable"
+  blacklist = ["migrations"]
