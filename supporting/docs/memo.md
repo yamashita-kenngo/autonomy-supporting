@@ -18,6 +18,7 @@
 - go.modにsqlboiler/v4の依存を追加する
 - go.modにnull/v8の依存を追加する
 - sqlboilerコマンドがcommand not foundになる場合はPATHが通っているか確認するとよい
+- PATHが通っていない場合はexport PATH="$HOME/go/bin:$PATH"
 - sqlboiler.tomlはcオプションを付けないと既存環境変数と衝突するのでつける
 - 設定ファイルにsslmodeの項目を追加しないとSSL is not enabledのエラーが出るためつける
 - sqlboiler psql -c sqlboiler.toml  --output apps/supporting-api/infra/postgres/models
