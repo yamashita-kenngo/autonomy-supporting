@@ -1,4 +1,4 @@
-# 作業📝
+# 作業📝:golang-migrate
 
 - 作業ディレクトリ: ./supporting
 
@@ -10,3 +10,13 @@
 - ${databasename}プロンプトにて\qでデータベースプロンプトから切断
 - database url "postgres://${username}:${password}@localhost:5432/${databasename}?sslmode=disable"
 - migrate -database="postgres://admin:password@localhost:5432/ausu?sslmode=disable" -path=migrations/ up
+- migrate -database="postgres://admin:password@localhost:5432/ausu?sslmode=disable" -path=migrations/ up ${version}
+
+# 作業📝: sqlboiler
+
+-　パッケージをインストールする
+- 設定ファイルを準備する
+- sqlboilerでコード生成をする
+- governmentsテーブルに地方公共団体データをインソートする(地方公共団体){団体コード、名称}
+- governmentsテーブルに存在するデータを削除する
+- governmentsテーブルに存在するデータを編集する
