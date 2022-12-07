@@ -1,0 +1,13 @@
+# 地方公共団体
+
+type Government {
+  name: String!
+}
+
+extend type Query {
+  governments: [Government]!
+}
+
+extend type Mutation {
+  registerGovernment(name: String!): Government!
+}
